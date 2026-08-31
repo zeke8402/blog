@@ -34,17 +34,15 @@ body {
 
 .site-shell--project {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 82px;
   background: #100b08;
 }
 
-.site-shell--project > .Layout {
-  flex: 1 0 auto;
-}
-
 .site-shell--project > .site-footer {
-  flex-shrink: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .site-shell--project .home-bg {
