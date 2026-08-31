@@ -41,6 +41,15 @@ body {
   visibility: hidden;
 }
 
+.site-shell--project .VPNav,
+.site-shell--project .VPLocalNav {
+  display: none;
+}
+
+.site-shell--project .VPContent {
+  padding-top: 0 !important;
+}
+
 .site-footer {
   position: relative;
   z-index: 1;
