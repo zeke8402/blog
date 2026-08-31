@@ -166,6 +166,52 @@ h1, h2, h3, h4, h5, h6,
   color: #fff;
 }
 
+.about-page {
+  max-width: 860px;
+  margin: clamp(2rem, 8vw, 6rem) auto;
+  padding: clamp(2rem, 6vw, 4.5rem);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+  background: linear-gradient(145deg, rgba(6, 10, 18, 0.9), rgba(17, 20, 31, 0.76));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.about-page__eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--color-accent);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.about-page h1 {
+  max-width: 720px;
+  margin: 0 0 2rem;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.about-page__body {
+  max-width: 680px;
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+.about-page__resume {
+  display: inline-flex;
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(248, 180, 108, 0.5);
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .fancy-graphic {
   position: relative;
   height: min(50vh, 420px);
@@ -439,6 +485,43 @@ h1, h2, h3, h4, h5, h6,
 .rogue-content {
   max-width: 760px;
   margin: 0 auto;
+}
+
+.rogue-post-card {
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid rgba(248, 180, 108, 0.25);
+  border-radius: 18px;
+  background: rgba(6, 10, 18, 0.72);
+}
+
+.rogue-post-card h2 {
+  margin: 0.3rem 0 0.65rem;
+}
+
+.rogue-post-card h2 a {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.rogue-post-card__date {
+  margin: 0;
+  color: var(--color-muted);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+}
+
+.rogue-article {
+  padding-bottom: 2rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.rogue-article h1 {
+  margin-top: 0.6rem;
+  font-size: clamp(2.3rem, 6vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
 }
 
 .screenshot-grid {

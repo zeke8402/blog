@@ -12,7 +12,14 @@ title: Rogue Provisions Blog
 
 # Development blog
 
-Notes from the making of Rogue Provisions will appear here. Check back soon for the first update.
+Notes from the making of Rogue Provisions—what we are trying, what we are learning, and how the game is taking shape.
+
+<article class="rogue-post-card">
+  <p class="rogue-post-card__date">August 30, 2026</p>
+  <h2><a href="/projects/rogue-provisions/blog/hexes-and-godot">Starting with hexes and Godot</a></h2>
+  <p>Why we are building a 2D world from hexagonal tiles, and why Godot feels like the right place to begin.</p>
+  <a class="project-link" href="/projects/rogue-provisions/blog/hexes-and-godot">Read the post →</a>
+</article>
 
   </main>
 </div>

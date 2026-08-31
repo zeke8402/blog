@@ -21,7 +21,7 @@ date: 2026-08-30
   <section class="rogue-hero">
     <p class="rogue-eyebrow">Now in development</p>
     <h1>Rogue Provisions</h1>
-    <p>A new game by Zeke. Follow along as the world, systems, and story take shape.</p>
+    <p>A new game by Sleek Algorithms. Follow along as the world, systems, and story take shape.</p>
     <div class="rogue-actions">
       <a class="rogue-button" href="/projects/rogue-provisions/about">About the game</a>
       <a class="rogue-button" href="/projects/rogue-provisions/blog/">Read the devlog</a>
