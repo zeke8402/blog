@@ -16,8 +16,8 @@ Notes from the making of Rogue Provisions—what we are trying, what we are lear
 
 <article class="rogue-post-card">
   <p class="rogue-post-card__date">August 30, 2026</p>
-  <h2><a href="/projects/rogue-provisions/blog/hexes-and-godot">Starting with hexes and Godot</a></h2>
-  <p>Why we are building a 2D world from hexagonal tiles, and why Godot feels like the right place to begin.</p>
+  <h2><a href="/projects/rogue-provisions/blog/hexes-and-godot">Devlog 01: Hexes, terrain, and clouds</a></h2>
+  <p>Building the first visible slice—from a coordinate-labeled debug grid to compressed terrain and procedural clouds casting shadows overhead.</p>
   <a class="project-link" href="/projects/rogue-provisions/blog/hexes-and-godot">Read the post →</a>
 </article>
 
