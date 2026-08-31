@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/blog/',
+  base: '/',
   title: 'Zeke',
   description: 'Personal site and blog',
   cleanUrls: true,

@@ -10,11 +10,11 @@ date: 2026-08-30
 
 <div class="rogue-site">
   <nav class="rogue-nav" aria-label="Rogue Provisions">
-    <a class="rogue-nav__brand" href="/blog/projects/rogue-provisions/">Rogue Provisions</a>
+    <a class="rogue-nav__brand" href="/projects/rogue-provisions/">Rogue Provisions</a>
     <div class="rogue-nav__links">
-      <a href="/blog/projects/rogue-provisions/about">About</a>
-      <a href="/blog/projects/rogue-provisions/blog/">Blog</a>
-      <a href="/blog/projects/rogue-provisions/screenshots">Screenshots</a>
+      <a href="/projects/rogue-provisions/about">About</a>
+      <a href="/projects/rogue-provisions/blog/">Blog</a>
+      <a href="/projects/rogue-provisions/screenshots">Screenshots</a>
     </div>
   </nav>
 
@@ -23,8 +23,8 @@ date: 2026-08-30
     <h1>Rogue Provisions</h1>
     <p>A new game by Zeke. Follow along as the world, systems, and story take shape.</p>
     <div class="rogue-actions">
-      <a class="rogue-button" href="/blog/projects/rogue-provisions/about">About the game</a>
-      <a class="rogue-button" href="/blog/projects/rogue-provisions/blog/">Read the devlog</a>
+      <a class="rogue-button" href="/projects/rogue-provisions/about">About the game</a>
+      <a class="rogue-button" href="/projects/rogue-provisions/blog/">Read the devlog</a>
     </div>
   </section>
 </div>
