@@ -35,9 +35,9 @@ Those labels and bright cyan outlines are temporary, but they are useful scaffol
 
 The terrain workflow starts with **144×144 pixel source tiles**. That gives me a consistent canvas to draw in Pixaki and matches the dimensions expected by the debug hex.
 
-An exporter then performs the less intuitive part of the process. It compresses the source artwork vertically by two thirds—turning the artwork into a 144×96 strip—repeats that strip into a 144×144 output frame, and applies the hexagonal transparency mask. The final PNG still occupies a 144×144 frame, which keeps placement simple in Godot, while the artwork inside it carries the vertical compression.
+An exporter then performs the less intuitive part of the process. Following Wesnoth's square-to-hex tiling method, it scales the seamless source pattern to 75% of the hex width and half its height. At our scale that produces a 108×72 pattern. The exporter repeats that pattern across a 216×144 working canvas, crops it back to 144×144, and makes the pixels outside the hex transparent. The finished Godot texture therefore remains a standard 144×144 image.
 
-That two-thirds vertical compression comes from [Mesilliac's Essay on Terrain Perspective](https://wiki.wesnoth.org/Mesilliac%27s_Essay_on_Terrain_Perspective) on the Battle for Wesnoth Wiki. Mesilliac explains the geometry behind Wesnoth's distinctive terrain perspective and how top-down artwork can be compressed to 66.67% of its original height to fit it. This project’s terrain exporter is a direct implementation of that idea at a 144-pixel scale.
+The implementation comes from the Wesnoth Wiki's [Turning Square Tiles into Hex](https://wiki.wesnoth.org/Turning_Square_Tiles_into_Hex) tutorial—specifically its first method, which preserves the source texture's orientation. [Mesilliac's Essay on Terrain Perspective](https://wiki.wesnoth.org/Mesilliac%27s_Essay_on_Terrain_Perspective) provides the geometric background for why vertically compressed terrain reads with Wesnoth's distinctive perspective.
 
 The current loop is:
 
