@@ -37,6 +37,8 @@ The terrain workflow starts with **144×144 pixel source tiles**. That gives me 
 
 An exporter then performs the less intuitive part of the process. It compresses the source artwork vertically by two thirds—turning the artwork into a 144×96 strip—repeats that strip into a 144×144 output frame, and applies the hexagonal transparency mask. The final PNG still occupies a 144×144 frame, which keeps placement simple in Godot, while the artwork inside it carries the vertical compression.
 
+That two-thirds vertical compression comes from [Mesilliac's Essay on Terrain Perspective](https://wiki.wesnoth.org/Mesilliac%27s_Essay_on_Terrain_Perspective) on the Battle for Wesnoth Wiki. Mesilliac explains the geometry behind Wesnoth's distinctive terrain perspective and how top-down artwork can be compressed to 66.67% of its original height to fit it. This project’s terrain exporter is a direct implementation of that idea at a 144-pixel scale.
+
 The current loop is:
 
 1. Draw a 144×144 tile in Pixaki.
